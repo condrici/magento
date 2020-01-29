@@ -1,0 +1,42 @@
+# Magento
+# Exclude root files, but not directories
+/*
+!*/
+
+!composer.*
+!.gitignore
+!README.md
+/.github/
+
+#Editor
+/.zfproject.xml
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings/
+/nbproject/
+/.idea/
+/.csscomb.json
+/.phpstorm.meta.php
+
+# OS files
+__MACOSX/
+[Tt]humbs.db
+*.DS_Store
+
+# Composer
+/bin
+
+# Node
+/node_modules
+
+# Docker
+/docker
+
+/update
+/phpserver
+/pub
+/setup
+/var
+/vendor
