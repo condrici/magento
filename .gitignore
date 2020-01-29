@@ -1,6 +1,5 @@
 # Magento
 # Exclude root files, but not directories
-/*
 !*/
 
 !composer.*
